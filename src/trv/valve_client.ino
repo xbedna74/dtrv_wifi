@@ -19,10 +19,10 @@
 
 #define MEASURE_TIME 180000 //time in miliseconds in between measurements
 
-const char* ssid = "xbedna74"; //SSID of WiFi
-const char* password = "xbedna74"; //password of WiFi
+const char* ssid = "ssid"; //SSID of WiFi
+const char* password = "password"; //password of WiFi
 
-String target_ip = "192.168.43.40"; //ip address of server
+String target_ip = "server_ip"; //ip address of server
 
 String address = "http://" + target_ip + ":60000"; //address of the server
 
