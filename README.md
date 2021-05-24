@@ -69,15 +69,15 @@ Then go to "Boards Manager" via Tools -> Board -> Boards Manager. Enter esp8266 
 Then go to Tools -> Library manager and enter "DHT sensor library" and install it from the creator of Adafruit. And also install the "AdruinoJson" library from the creator Benoit Blanchon.
 Then select "NodeMCU 1.0 (ESP-12E Module)" in Tools -> Board -> ESP8266 Boards.
 Enter additional settings in Tools as follows:
-`Builtint Led: "2"`
-`Upload Speed: "115200"`
-`CPU Frequency: "80 MHz"`
-`Flash Size: "4MB (FS:2MB OTA:~1019KB)"`
-`Debug port: "Disabled"`
-`Debug level: "None"`
-`IwIP Variant. "v2 Lower Memory"`
-`VTables: "Flash"`
-`Exceptions: "Legacy (new can return nullptr)"`
+`Builtint Led: "2"`,
+`Upload Speed: "115200"`,
+`CPU Frequency: "80 MHz"`,
+`Flash Size: "4MB (FS:2MB OTA:~1019KB)"`,
+`Debug port: "Disabled"`,
+`Debug level: "None"`,
+`IwIP Variant. "v2 Lower Memory"`,
+`VTables: "Flash"`,
+`Exceptions: "Legacy (new can return nullptr)"`,
 `Erase Flash: "All Flash Contents"`.
 
 After opening the code, you need to change the SSID and password of the WiFi network to connect. The SSID must be entered in the `ssid` variable and it is the name of the network that is displayed on other devices (phone, computer). Enter the WiFi password in the `password` variable. In the `target_ip` variable, enter the IP address where the server is running.
